@@ -65,4 +65,33 @@ java -version
 sudo update-alternatives --config java
 
 
+## ​ 4.2 Copie o caminho que aparecerá no terminal, no meu caso:
+
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java
+
+## ​ 4.3 Vamos editar o arquivo .bashrc:
+
+sudo gedit ~/.bashrc
+
+## ​ 4.4 Copie o código abaixo e cole no final do arquivo .bashrc.
+
+# ​ IMPORTANTE: cuidado para não alterar nada no arquivo além de apenas colar no final do mesmo o que vou te disponibilizar a seguir.
+
+## ​ JAVA_HOME = aqui você coloca o caminho do tópico 4.2, tirando o /bin/java
+
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export JAVA_HOME
+export PATH=$PATH:$JAVA_HOME
+
+## ​ 4.3 Salve o arquivo
+
+## ​ 4.4 Vamos conferir se a alteração ficou salva:
+
+cat ~/.bashrc
+# Feche o terminal e abra novamente
+
+small_orange_diamond6. Vamos conferir mais uma vez se o Java está instalado na nossa máquina
+
+java --version
+
 
