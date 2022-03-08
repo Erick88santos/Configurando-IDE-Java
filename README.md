@@ -174,7 +174,7 @@ git config --list
 
 
 
-#window WINDOWS
+# window WINDOWS
 
 ### Instalação JDK Zulu
 Aqui no windows, vamos fazer o download do OpenJDK Zulu. As compilações do Azul Zulu do OpenJDK são compilações de código aberto, testadas pelo TCK e certificadas do OpenJDK. O Zulu Blue está disponível para uma ampla variedade de plataformas de hardware e sistemas operacionais. A documentação do Azul Zulu inclui notas de lançamento, um guia de instalação e licenças de terceiros.
@@ -218,7 +218,7 @@ Aqui no windows, vamos fazer o download do OpenJDK Zulu. As compilações do Azu
 java -version
 
 
-####Créditos: DevSuperior
+#### Créditos: DevSuperior
 
 
 # Instalação Eclipse
